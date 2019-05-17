@@ -2305,15 +2305,20 @@ ul.main-carousel {
     text-align: center; }
   #extras #tab1:checked + label {
     border-left: none; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 736px) {
     #extras label {
-      font-size: 0; }
+      font-size: 0;
+      padding: 15px; }
     #extras label:before {
       margin: 0;
-      font-size: 18px; } }
-  @media screen and (max-width: 500px) {
-    #extras label {
-      padding: 15px; } }
+      font-size: 18px; }
+    #extras iframe {
+      width: 432px;
+      height: 243px; } }
+  @media screen and (max-width: 480px) {
+    #extras iframe {
+      width: 315px;
+      height: 175px; } }
   #extras .social {
     width: 100%;
     display: flex;
