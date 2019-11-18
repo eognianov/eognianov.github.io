@@ -15,7 +15,11 @@
     html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
     .photos{
-      display: flexbox;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      /* align item vertically */
+      align-items: flex-start;
     }
 
     .photos a img{
@@ -144,13 +148,13 @@
               <p>Online news system</p>
               <p>Technologies: ASP.NET Core, SQL, HTML3, CSS3, JavaScript, JQuery</p>
               <p>Functionalities: Add, Update, Delete, Publish, Pin news posts. Three different type of users: Reporter, Editor, Administrator. News aggregator for the press releases of the Bulgarian government sites.</p>
-              <p class = "photos">
+              <div class = "photos">
                 <a data-fancybox="gallery" data-caption="Administration" href="/pics/admin1.png" class=""><img src="/pics/admin1_s.png" alt=""></a>
                 <a data-fancybox="gallery" data-caption="Administration" href="/pics/admin2.png"><img src="/pics/admin2_s.png" alt=""></a>
                 <a data-fancybox="gallery" data-caption="Create post" href="/pics/test.PNG"><img src="/pics/test_s.png" alt=""></a>
                 <a data-fancybox="gallery" data-caption="Add photo to post" href="/pics/addphoto.PNG"><img src="/pics/addphoto_s.png" alt=""></a>
                 <a data-fancybox="gallery" data-caption="Add video to post" href="/pics/addvideo.PNG"><img src="/pics/addvideo_s.png" alt=""></a>
-              </p>
+              </div>
               <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/359.news" target="_blank">repository</a></h6>
               <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="https://0722news.azurewebsites.net/" target="_blank">live</a></h6>
             </div>
