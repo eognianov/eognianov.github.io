@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Emilian Ognianov CV page.</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/lib/jquery.fancybox.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<head>
+  <title>Emilian Ognianov CV page.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/lib/jquery.fancybox.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" />
 
 
-    <style>
-    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 
-    .photos{
+  <style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Roboto", sans-serif
+    }
+
+    .photos {
       display: flex;
       flex-wrap: wrap;
       justify-content: flex-start;
@@ -22,97 +39,125 @@
       align-items: flex-start;
     }
 
-    .photos a img{
+    .photos a img {
       width: 10em;
       padding: 1em;
       opacity: .7;
     }
 
-    .photos a img:hover{
+    .photos a img:hover {
       opacity: 1;
     }
+  </style>
+  <style>
+    .award {
+      margin: .2em;
+    }
 
-    </style>
-    <link rel="shortcut icon" type="image/png" href="files/c.png"/>
-    <meta name="google-site-verification" content="DEE5RAIEtsWHZCp-zUVAlew9myVBdg10TYAnJDkn3ts" />
-  </head>
+    .awards {
+      max-height: 50%;
+    }
+
+    .awards img {
+      width: 100%;
+      max-height: 100%;
+    }
+
+    .slick-arrow::before,
+    .slick-arrow::after {
+      color: #009688;
+    }
+
+    button.slick-prev {
+      left: -15px;
+    }
+
+    button.slick-next {
+      right: -15px;
+    }
+  </style>
+  <link rel="shortcut icon" type="image/png" href="files/c.png" />
+  <meta name="google-site-verification" content="DEE5RAIEtsWHZCp-zUVAlew9myVBdg10TYAnJDkn3ts" />
+</head>
+
 <body class="w3-light-grey">
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
+  <!-- Page Container -->
+  <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-  
-    <!-- Left Column -->
+    <!-- The Grid -->
+    <div class="w3-row-padding">
 
-    
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="files/me.jpg" style="width:100%" alt="Avatar">
-          <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2>Emilian Ognianov</h2>
+      <!-- Left Column -->
+
+
+      <div class="w3-third">
+
+        <div class="w3-white w3-text-grey w3-card-4">
+          <div class="w3-display-container">
+            <img src="files/me.jpg" style="width:100%" alt="Avatar">
+            <div class="w3-display-bottomleft w3-container w3-text-white">
+              <h2>Emilian Ognianov</h2>
+            </div>
           </div>
-        </div>
-        <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-grey"></i>Freelancer</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-grey"></i>Bulgaria, EU</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-grey"></i>emilian.e.ognianov [at] gmail [dot] com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-grey"></i>00359897200827</p>
-          <hr>
+          <div class="w3-container">
+            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-grey"></i>Freelancer</p>
+            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-grey"></i>Bulgaria, EU</p>
+            <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-grey"></i>emilian.e.ognianov [at] gmail
+              [dot] com</p>
+            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-grey"></i>00359897200827</p>
+            <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-grey"></i>Skills</b></p>
-          <p>ASP.NET</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:85%">
+            <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-grey"></i>Skills</b></p>
+            <p>ASP.NET</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:85%">
                 <div class="w3-center w3-text-white">85%</div>
+              </div>
             </div>
-          </div>
-          <p>Vue.js *</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:15%">
+            <p>Vue.js *</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:15%">
                 <div class="w3-center w3-text-white">15%</div>
+              </div>
             </div>
-          </div>
-          <p>C#</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:75%">
+            <p>C#</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:75%">
                 <div class="w3-center w3-text-white">75%</div>
+              </div>
             </div>
-          </div>
-          <p>SQL</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:60%">
+            <p>SQL</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:60%">
                 <div class="w3-center w3-text-white">60%</div>
+              </div>
             </div>
-          </div>
-          <p>Python</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:50%">
-              <div class="w3-center w3-text-white">50%</div>
-            </div>
-          </div>
-          <p>Django</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:50%">
-              <div class="w3-center w3-text-white">50%</div>
-            </div>
-          </div>
-          <p>JavaScript</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:50%">
+            <p>Python</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:50%">
                 <div class="w3-center w3-text-white">50%</div>
+              </div>
             </div>
-          </div>
-          <p>HTML5 & CSS3</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:60%">
+            <p>Django</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:50%">
+                <div class="w3-center w3-text-white">50%</div>
+              </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:50%">
+                <div class="w3-center w3-text-white">50%</div>
+              </div>
+            </div>
+            <p>HTML5 & CSS3</p>
+            <div class="w3-light-grey w3-round-xlarge w3-small">
+              <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:60%">
                 <div class="w3-center w3-text-white">60%</div>
+              </div>
             </div>
-          </div>
-          <!-- <p>Java</p>
+            <!-- <p>Java</p>
           <div class="w3-light-grey w3-round-xlarge w3-small">
             <div class="w3-container w3-center w3-round-xlarge w3-grey" style="width:20%">
                 <div class="w3-center w3-text-white">20%</div>
@@ -124,440 +169,624 @@
                 <div class="w3-center w3-text-white">20%</div>
             </div>
           </div> -->
-          <p><i>* currently studying</i></p>
-          <br>
+            <p><i>* currently studying</i></p>
+            <br>
 
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-gray"></i>Languages</b></p>
-          <p>Bulgarian</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-gray" style="height:24px;width:100%"></div>
+            <p class="w3-large w3-text-theme"><b><i
+                  class="fa fa-globe fa-fw w3-margin-right w3-text-gray"></i>Languages</b></p>
+            <p>Bulgarian</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-gray" style="height:24px;width:100%"></div>
+            </div>
+            <p>English</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-gray" style="height:24px;width:85%"></div>
+            </div>
+            <p>Russian</p>
+            <div class="w3-light-grey w3-round-xlarge">
+              <div class="w3-round-xlarge w3-gray" style="height:24px;width:35%"></div>
+            </div>
+            <br>
           </div>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-gray" style="height:24px;width:85%"></div>
-          </div>
-          <p>Russian</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-gray" style="height:24px;width:35%"></div>
-          </div>
-          <br>
-        </div>
-      </div><br>
+        </div><br>
 
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-twothird">
-
-        <div class="w3-container w3-card w3-white w3-margin-bottom">
-            <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Last Projects</h2>
-            
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>0722 NEWS / 0722.news</b></h5>
-              <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-              <p>Online news system</p>
-              <p>Technologies: ASP.NET Core, SQL, HTML3, CSS3, JavaScript, JQuery</p>
-              <p>Functionalities: Add, Update, Delete, Publish, Pin news posts. Three different type of users: Reporter, Editor, Administrator. News aggregator for the press releases of the Bulgarian government sites.</p>
-              <div class = "photos">
-                <a data-fancybox="gallery" data-caption="Administration" href="/pics/admin1.png" class=""><img src="/pics/admin1_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Administration" href="/pics/admin2.png"><img src="/pics/admin2_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Create post" href="/pics/test.PNG"><img src="/pics/test_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Add photo to post" href="/pics/addphoto.PNG"><img src="/pics/addphoto_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Add video to post" href="/pics/addvideo.PNG"><img src="/pics/addvideo_s.png" alt=""></a>
-              </div>
-              <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/359.news" target="_blank">repository</a></h6>
-              <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="https://0722news.azurewebsites.net/" target="_blank">live</a></h6>
-            </div>
-            <hr>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Flask Blog</b></h5>
-              <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2019</h6>
-              <p>Flask Blog App</p>
-              <p>Technologies: Python Flask, SQLite, Bootstrap 4</p>
-              <p>Functionalities: Add, Update, Delete Posts. Register, Login, Logout User. Forgot password email verification.</p>
-              <div class = "photos">
-                <a data-fancybox="gallery" data-caption="Flask Blog Home" href="/pics/flask_home.png" class=""><img src="/pics/flask_home.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Flask Blog Registration" href="/pics/flask_register.png" class=""><img src="/pics/flask_register_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Flask Blog Login" href="/pics/flask_login.png" class=""><img src="/pics/flask_login_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Flask Blog Logged" href="/pics/flask_logged.png" class=""><img src="/pics/flask_logged_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Flask Blog Update Account" href="/pics/flask_account.png" class=""><img src="/pics/flask_account_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Flask Blog Details" href="/pics/flask_detail.png" class=""><img src="/pics/flask_detail_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Flask Blog Create" href="/pics/flask_create.png" class=""><img src="/pics/flask_create_s.png" alt=""></a>
-                </div>
-              <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/FlaskBlog/" target="_blank">repository</a></h6>
-              <!-- <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="https://0722news.azurewebsites.net/" target="_blank">live</a></h6> -->
-            </div>
-            <hr>
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Django Blog</b></h5>
-              <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2019</h6>
-              <p>Flask Blog App</p>
-              <p>Technologies: Python Django. SQLite, Bootstrap 4</p>
-              <p>Functionalities: Add, Update, Delete Posts. Register, Login, Logout User. Forgot password email verification.</p>
-              <div class = "photos">
-                <a data-fancybox="gallery" data-caption="Django Blog Home" href="/pics/django_home.png" class=""><img src="/pics/django_home_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Django Blog Register" href="/pics/django_register.png" class=""><img src="/pics/django_register_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Django Blog Account" href="/pics/django_account.png" class=""><img src="/pics/django_account_s.png" alt=""></a>
-                <a data-fancybox="gallery" data-caption="Django Blog Create" href="/pics/django_create.png" class=""><img src="/pics/django_create_s.png" alt=""></a>
-              </div>
-              <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/DjangoBlog" target="_blank">repository</a></h6>
-              <!-- <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="https://0722news.azurewebsites.net/" target="_blank">live</a></h6> -->
-            </div>
-
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Vue ToDo</b></h5>
-              <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2020</h6>
-              <p>Vue ToDo application</p>
-              <p>Technologies: Vue.js, HTML5, CSS3</p>
-              <p>Functionalities: Add, Complete, Delete Todos.</p>
-              <div class = "photos">
-                <a data-fancybox="gallery" data-caption="Vue ToDo App" href="/pics/vue.PNG" class=""><img src="/pics/vue_s.png" alt=""></a>
-              </div>
-              <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/Vue.js-ToDo/tree/master/vue-todo" target="_blank">repository</a></h6>
-              <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="./vue/vue-todo/index.html" target="_blank">live</a></h6>
-            </div>
-
-            <div class="w3-container">
-              <h5 class="w3-opacity"><b>Vue + Vuex ToDo</b></h5>
-              <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2020</h6>
-              <p>Vue + Vuex ToDo application</p>
-              <p>Technologies: Vue.js + Vuex, HTML5, CSS3</p>
-              <p>Functionalities: Add, Complete, Filter Todos.</p>
-              <div class = "photos">
-                <a data-fancybox="gallery" data-caption="Vue ToDo App" href="/pics/vuex.PNG" class=""><img src="/pics/vuex_s.png" alt=""></a>
-              </div>
-              <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/Vue.js-ToDo/tree/master/vuex-todo" target="_blank">repository</a></h6>
-              <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="./vue/vuex-todo/index.html" target="_blank">live</a></h6>
-            </div>
-
-          </div>
-
-
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-          <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-code w3-margin-right w3-xxlarge w3-text-gray"></i>My Software Development Education</h2>
-         
-         
-          <div class="w3-container">
-
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>JS Applications</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>14 April 2019</h6>
-                      <p>In the JS Apps course you will learn what HTTP requests are and how to use them. You will be introduced to REST Services, what databases are and how to handle them, what is asynchronous code, what are Templating and Routing. You will understand what the architecture of an application is and how to structure your applications properly. At the end of the course you will create your own Single Page Application.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/JavaScript/tree/master/JS%20Applications" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <!-- <div class="w3-third w3-center">
-                    <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div> -->
-            
-          </div>
-          <hr>
-          <div class="w3-container">
-              <div class="w3-twothird">
-                  
-                      <div class="w3-display-container">
-                        <h5 class="w3-opacity"><b>JS Advanced</b></h5>
-                        
-                        <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>18 March 2019</h6>
-                        <p>In the JS Advanced course, you will build upon your knowledge of JavaScript by learning more sophisticated concepts such as IFFE, closure, objects and classes. This course will develop your algorithmic thinking and build on your knowledge of the DOM tree. You will learn how to manipulate the DOM tree, add and delete elements of it. Additionally, you will learn how to test your code using Unit Testing libraries. You will see the OOP section of JavaScript (inheritance, prototypes and prototypes chains).</p><br>
-                        <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/JavaScript/tree/master/JS%20Advanced" target="_blank">repository</a></h6>
-                      </div>
-                  
-              </div>
-              <!-- <div class="w3-third w3-center">
-                      <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
-                      <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-              </div> -->
-              
-            </div>
-          <hr>
-          <div class="w3-container">
-              <div class="w3-twothird">
-                  
-                      <div class="w3-display-container">
-                        <h5 class="w3-opacity"><b>JS Fundamentals</b></h5>
-                        
-                        <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>11 February 2019</h6>
-                        <p>In the course "JS Fundamentals" you will learn the basic syntax of JavaScript. Data types, operators, expressions, conditional constructs, loops, and functions are studied. You will become familiar with the DOM tree and start working with JavaScript in your browser</p><br>
-                        <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/JavaScript/tree/master/JS%20Fundamentals" target="_blank">repository</a></h6>
-                      </div>
-                  
-              </div>
-              <!-- <div class="w3-third w3-center">
-                      <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
-                      <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-              </div> -->
-              
-            </div>
-          <hr>
-          <div class="w3-container">
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>C# MVC frameworks - ASP.NET Core</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>10 January 2019</h6>
-                      <p>The ASP.NET Core course will teach you how to build modern web applications with the Model-View-Controller architecture using HTML5, databases, Entity Framework Core and other technologies. The ASP.NET Core Technology Platform, its components and architecture, the creation of MVC web applications, the definition of models, views and partial views with Razor view engine, controller definition, database operation, integration with Entity Framework Core, LINQ, and SQL Server. The course also includes more complex themes such as user experience, roles and sessions, AJAX usage, caching, web application security, web sockets, and libraries from MVC controls. Several practical laboratory exercises (labs) and workshops are being built to build comprehensive, full-featured ASP.NET Core web applications.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20Web/C%23%20ASP.NET%20Core" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <!-- <div class="w3-third w3-center">
-                    <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div> -->
-            
-          </div>
-          <hr>
-
-          <div class="w3-container">
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>C# Web Development Basics</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>06 November 2018</h6>
-                      <p>In the basic course of web programming, we will introduce you to basic web development principles such as HTTP protocol, sessions and ways of preserving the status, caching of data, various data transfer protocols, security. We will write our own MVC framework based on C # and MS SQL Server, splitting models, views and controllers, with front-controller and router, supporting all the basic functionalities needed for a modern web application: data visualization, tables, CRUD data operations, forms, paging, validation, notifications, users, sessions, login / logout, and more. In practice, you will learn to create your own C # and SQL Server web applications and understand how web applications work as a structure and how MVC (model-view-controller) technology works in modern web applications. This course sets out the basics of important principles set in the next courses and used in the technologies to be studied.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20Web/C%23%20Web%20Development%20Basics" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <!-- <div class="w3-third w3-center">
-                    <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div> -->
-            
-          </div>
-          <hr>
-
-          <div class="w3-container">
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>Django Web Development</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>05 November 2018</h6>
-                      <p>The Django Web Development course will introduce you to one of the most used frameworks for building Python web applications. The aim of the course is to give you the basic knowledge and skills needed to build the back-end logic of web applications.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/PythonProjects/tree/master/PythonDjango" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <div class="w3-third w3-center">
-                    <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div>
-            
-          </div>
-      <hr>
-
-          <div class="w3-container">
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>Database Advanced - Entity Framework</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>15 August 2018</h6>
-                      <p>Working with a modern ORM technology: Entity Framework (EF), which is a ORM standard in C # and .NET applications. EF allows mapping between a relational database and object-oriented model using the "database first" and "code first" approaches and provides a powerful object-oriented API for querying the database and performing CRUD operations. Demonstrate established practices in building a database layer on sophisticated systems using the "Repository" and "Unit of Work" templates.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/SQL/tree/master/DBAdvancedEntityFramework" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <div class="w3-third w3-center">
-                    <img src="certificates\DBA.jpeg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\DBA.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div>
-            
-          </div>
-      <hr>
-
-          <div class="w3-container">
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>Database Basics - MS SQL</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>25 June 2018</h6>
-                      <p>Databases are the standard way to use dynamic information in modern applications, making them an integral part of almost every application. Intensive course basics of databases will introduce you to one of the most widely used database management systems (DBMS) used in the development of modern information systems - Microsoft SQL Server. The course focuses on relational modeling, data modeling with ER diagrams (tables and relational links) and SQL language handling (data mining, selection, projection, joining, aggregation, grouping, modification, deletion and insertion). Fundamental knowledge about ACID transactions and transaction processing and practical tips for adjusting productivity are provided.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/SQL/tree/master/DBBasicsMSSQL" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <div class="w3-third w3-center">
-                    <img src="certificates\DBB.jpeg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\DBB.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div>
-            
-          </div>
-      <hr>
-
-          <div class="w3-container">
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>C # OOP Advanced</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>24 April 2018</h6>
-                      <p>In the Object Oriented Programming (OOP) course you will learn about the principles and best practices for building quality software. You will become familiar with the concepts of writing quality code in OOP in C#. This includes using abstractions, refactoring, and writing unit tests, reflection, working with generic data types, using events and techniques, and tools to improve the quality of the code.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20OOP%20Advanced" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <div class="w3-third w3-center">
-                    <img src="certificates\COOPA.jpg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\COOPA.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div>
-            
-          </div>
-      <hr>
-
-          <div class="w3-container">
-            <div class="w3-twothird">
-                
-                    <div class="w3-display-container">
-                      <h5 class="w3-opacity"><b>C # OOP Basics</b></h5>
-                      
-                      <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>20 March 2018</h6>
-                      <p>The Object-Oriented Programming course will teach you the principles of Object Oriented Programming (OOP), how to work with classes and objects, how to use object-oriented modeling, and build class hierarchies. The basic principles of the OOP will be studied as abstraction (interfaces, abstract classes), encapsulation, inheritance and polymorphism. We will pay attention to paradigms such as event-driven programming, functional programming (lambda functions, closures and LINQ), exception handling. We'll look at cloning, comparing, and crawling objects. We will briefly go into the most commonly used design patterns.</p><br>
-                      <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20OOP%20Basics" target="_blank">repository</a></h6>
-                    </div>
-                
-            </div>
-            <div class="w3-third w3-center">
-                    <img src="certificates\COOPB.jpg" style="width: 70%; padding: 10px;">
-                    <p><a href="certificates\COOPB.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-            </div>
-            
-          </div>
-      <hr>
-          <div class="w3-container">
-              <div class="w3-twothird">
-                  
-                      <div class="w3-display-container">
-                        <h5 class="w3-opacity"><b>C # Advanced</b></h5>
-                        
-                        <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>12 February 2018</h6>
-                        <p>The C # Advanced course examines the .NET platform, as well as working with the C # language above the startup. This includes coding skills, solving problem solving skills, familiarizing with standard tools for working (.NET Framework), word processing tools, linear and tree collections, and working with files and directories. Particular attention is paid to the functional programming paradigm as well as to the basic tool bundling it - LINQ to process data streams.</p><br>
-                        <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20Advanced" target="_blank">repository</a></h6>
-                      </div>
-                  
-              </div>
-              <div class="w3-third w3-center">
-                      <img src="certificates\CSharpAdv.jpeg" style="width: 70%; padding: 10px;">
-                      <p><a href="certificates\CA.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-              </div>
-              
-            </div>
-        <hr>
-        <div class="w3-container">
-          <div class="w3-twothird">
-              
-                  <div class="w3-display-container">
-                    <h5 class="w3-opacity"><b>Software Technologies</b></h5>
-                    
-                    <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>12 January 2018</h6>
-                    <p>The "Software Technologies" course provides initial knowledge of the most used software technologies in practice and allows students to orientate which technologies they like to study them more thoroughly. Basic concepts from front-end and back-end development are studied. The course consists of four parts: HTML5 development (HTML + CSS + JavaScript + AJAX + REST), PHP web development (PHP + MySQL), C # Web development (ASP.NET MVC + Entity Framework + SQL Server) Java + Spring MVC + Hibernate + MySQL). The training methodology is extremely practical. The studied material is presented with a little theory, with numerous examples and a great number of practical tasks with increasing difficulty and upgrading one after the other, with detailed instructions. Practical work in a class under the supervision of lecturers and assistants (or home for online students) is over 70%. The course only introduces the technologies studied and gives very basic skills without going into depth.</p><br>
-                    <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/SoftUni-SoftwateTechnologies" target="_blank">repository</a></h6>
-                  </div>
-              
-          </div>
-          <div class="w3-third w3-center">
-                  <img src="certificates\Software Technologies - Octoboer 2017.jpg" style="width: 70%; padding: 10px;">
-                  <p><a href="certificates\ST.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-          </div>
-        </div>
-        <hr>
-          <div class="w3-container">
-              <div class="w3-twothird">
-                  
-                      <div class="w3-display-container">
-                        <h5 class="w3-opacity"><b>Programming Fundamentals</b></h5>
-                        
-                        <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>11 November 2017</h6>
-                        <p>The “Programming Fundamentals” course extends the previously gained basic coding skills from the “Programming Basics” course at the Software University and adds additional knowledge and practical programming skills. The course covers source control systems, Git and GitHub for team collaboration, understanding the basic data types in programming, extracting pieces of code into methods with parameters and return value, using the debugger to trace the program execution and find bugs, processing sequences of elements using arrays and lists, using collections, working with matrices for processing tabular data, working with dictionaries to map keys to values, using strings for text processing, and the basics of working with classes and objects, using API classes and defining simple classes.</p><br>
-                        <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/CShap-Projects/tree/master/ProgrammingFundamentals" target="_blank">repository</a></h6>
-                      </div>
-                  
-              </div>
-              <div class="w3-third w3-center">
-                      <img src="certificates\Programing Fundamentals - September 2017.jpg" style="width: 70%; padding: 10px;">
-                      <p><a href="certificates\PF.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-              </div>
-              
-            </div>
-        <hr>
-        <div class="w3-container">
-          <div class="w3-twothird">
-              
-                  <div class="w3-display-container">
-                    <h5 class="w3-opacity"><i class="fab fa-python"></i> <b>Python Basics</b></h5>
-                    
-                    <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>18 July 2017</h6>
-                    <p>Course is about basic coding skills, working with IDE, using of variables, condition statements, loops and other simple things. </p><br>
-                    <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a href="https://github.com/eognianov/PythonProjects" target="_blank">repository</a></h6>
-                  </div>
-              
-          </div>
-          <div class="w3-third w3-center">
-                  <img src="certificates\Python Basics - May 2017.jpeg" style="width: 70%; padding: 10px;">
-                  <p><a href="certificates\PB.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
-          </div>
-        </div>
-        <hr>
+        <!-- End Left Column -->
       </div>
 
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-gray"></i>Education</h2>
-        <div class="w3-container">
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Last Projects</h2>
+
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>0722 NEWS / 0722.news</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>May 2019 - <span
+                class="w3-tag w3-teal w3-round">Current</span></h6>
+            <p>Online news system</p>
+            <p>Technologies: ASP.NET Core, SQL, HTML3, CSS3, JavaScript, JQuery</p>
+            <p>Functionalities: Add, Update, Delete, Publish, Pin news posts. Three different type of users: Reporter,
+              Editor, Administrator. News aggregator for the press releases of the Bulgarian government sites.</p>
+            <div class="photos">
+              <a data-fancybox="gallery" data-caption="Administration" href="/pics/admin1.png" class=""><img
+                  src="/pics/admin1_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Administration" href="/pics/admin2.png"><img
+                  src="/pics/admin2_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Create post" href="/pics/test.PNG"><img src="/pics/test_s.png"
+                  alt=""></a>
+              <a data-fancybox="gallery" data-caption="Add photo to post" href="/pics/addphoto.PNG"><img
+                  src="/pics/addphoto_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Add video to post" href="/pics/addvideo.PNG"><img
+                  src="/pics/addvideo_s.png" alt=""></a>
+            </div>
+            <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                href="https://github.com/eognianov/359.news" target="_blank">repository</a></h6>
+            <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a
+                href="https://0722news.azurewebsites.net/" target="_blank">live</a></h6>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Flask Blog</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2019</h6>
+            <p>Flask Blog App</p>
+            <p>Technologies: Python Flask, SQLite, Bootstrap 4</p>
+            <p>Functionalities: Add, Update, Delete Posts. Register, Login, Logout User. Forgot password email
+              verification.</p>
+            <div class="photos">
+              <a data-fancybox="gallery" data-caption="Flask Blog Home" href="/pics/flask_home.png" class=""><img
+                  src="/pics/flask_home.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Flask Blog Registration" href="/pics/flask_register.png"
+                class=""><img src="/pics/flask_register_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Flask Blog Login" href="/pics/flask_login.png" class=""><img
+                  src="/pics/flask_login_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Flask Blog Logged" href="/pics/flask_logged.png" class=""><img
+                  src="/pics/flask_logged_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Flask Blog Update Account" href="/pics/flask_account.png"
+                class=""><img src="/pics/flask_account_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Flask Blog Details" href="/pics/flask_detail.png" class=""><img
+                  src="/pics/flask_detail_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Flask Blog Create" href="/pics/flask_create.png" class=""><img
+                  src="/pics/flask_create_s.png" alt=""></a>
+            </div>
+            <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                href="https://github.com/eognianov/FlaskBlog/" target="_blank">repository</a></h6>
+            <!-- <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="https://0722news.azurewebsites.net/" target="_blank">live</a></h6> -->
+          </div>
+          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Django Blog</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December 2019</h6>
+            <p>Flask Blog App</p>
+            <p>Technologies: Python Django. SQLite, Bootstrap 4</p>
+            <p>Functionalities: Add, Update, Delete Posts. Register, Login, Logout User. Forgot password email
+              verification.</p>
+            <div class="photos">
+              <a data-fancybox="gallery" data-caption="Django Blog Home" href="/pics/django_home.png" class=""><img
+                  src="/pics/django_home_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Django Blog Register" href="/pics/django_register.png"
+                class=""><img src="/pics/django_register_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Django Blog Account" href="/pics/django_account.png"
+                class=""><img src="/pics/django_account_s.png" alt=""></a>
+              <a data-fancybox="gallery" data-caption="Django Blog Create" href="/pics/django_create.png" class=""><img
+                  src="/pics/django_create_s.png" alt=""></a>
+            </div>
+            <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                href="https://github.com/eognianov/DjangoBlog" target="_blank">repository</a></h6>
+            <!-- <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="https://0722news.azurewebsites.net/" target="_blank">live</a></h6> -->
+          </div>
+
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Vue ToDo</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2020</h6>
+            <p>Vue ToDo application</p>
+            <p>Technologies: Vue.js, HTML5, CSS3</p>
+            <p>Functionalities: Add, Complete, Delete Todos.</p>
+            <div class="photos">
+              <a data-fancybox="gallery" data-caption="Vue ToDo App" href="/pics/vue.PNG" class=""><img
+                  src="/pics/vue_s.png" alt=""></a>
+            </div>
+            <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                href="https://github.com/eognianov/Vue.js-ToDo/tree/master/vue-todo" target="_blank">repository</a></h6>
+            <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="./vue/vue-todo/index.html"
+                target="_blank">live</a></h6>
+          </div>
+
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Vue + Vuex ToDo</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>February 2020</h6>
+            <p>Vue + Vuex ToDo application</p>
+            <p>Technologies: Vue.js + Vuex, HTML5, CSS3</p>
+            <p>Functionalities: Add, Complete, Filter Todos.</p>
+            <div class="photos">
+              <a data-fancybox="gallery" data-caption="Vue ToDo App" href="/pics/vuex.PNG" class=""><img
+                  src="/pics/vuex_s.png" alt=""></a>
+            </div>
+            <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                href="https://github.com/eognianov/Vue.js-ToDo/tree/master/vuex-todo" target="_blank">repository</a>
+            </h6>
+            <h6 class="w3-text-gray"><i class="fas fa-link w3-margin-right"></i><a href="./vue/vuex-todo/index.html"
+                target="_blank">live</a></h6>
+          </div>
+
+        </div>
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-trophy fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Certificates & Awards</h2>
+          <div class="awards w3-container">
+            <div class="award"><img
+                src="./certificates/certificate-of-completion-for-intro-to-data-and-data-science-page-001.jpg" alt="">
+            </div>
+            <div class="award"><img src="./certificates/certificate-of-completion-for-git-and-github-page-001.jpg"
+                alt=""></div>
+            <div class="award"><img
+                src="./certificates/certificate-of-completion-for-introduction-to-python-page-001.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/PD.jpeg" alt=""></div>
+            <div class="award"><img src="./certificates/DBA.jpeg" alt=""></div>
+            <div class="award"><img src="./certificates/DBB.jpeg" alt=""></div>
+            <div class="award"><img src="./certificates/COOPA.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/COOPB.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/CSharpAdv.jpeg" alt=""></div>
+            <div class="award"><img src="./certificates/Software Technologies - Octoboer 2017.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/Programing Fundamentals - September 2017.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/Python Basics - May 2017.jpeg" alt=""></div>
+            <div class="award"><img src="./certificates/tu.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/gramota_2008.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/school_prize.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/city_prize.jpg" alt=""></div>
+            <div class="award"><img src="./certificates/gramota_2007.jpg" alt=""></div>
+
+          </div>
+        </div>
+
+
+        <div class="w3-container w3-card w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fas fa-code w3-margin-right w3-xxlarge w3-text-gray"></i>My
+            Software Development Education</h2>
+
+
+          <div class="w3-container">
+
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>JS Applications</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>14 April 2019</h6>
+                <p>In the JS Apps course you will learn what HTTP requests are and how to use them. You will be
+                  introduced to REST Services, what databases are and how to handle them, what is asynchronous code,
+                  what are Templating and Routing. You will understand what the architecture of an application is and
+                  how to structure your applications properly. At the end of the course you will create your own Single
+                  Page Application.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/JavaScript/tree/master/JS%20Applications"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <!-- <div class="w3-third w3-center">
+                    <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
+                    <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div> -->
+
+          </div>
+          <hr>
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>JS Advanced</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>18 March 2019</h6>
+                <p>In the JS Advanced course, you will build upon your knowledge of JavaScript by learning more
+                  sophisticated concepts such as IFFE, closure, objects and classes. This course will develop your
+                  algorithmic thinking and build on your knowledge of the DOM tree. You will learn how to manipulate the
+                  DOM tree, add and delete elements of it. Additionally, you will learn how to test your code using Unit
+                  Testing libraries. You will see the OOP section of JavaScript (inheritance, prototypes and prototypes
+                  chains).</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/JavaScript/tree/master/JS%20Advanced"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <!-- <div class="w3-third w3-center">
+                      <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
+                      <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+              </div> -->
+
+          </div>
+          <hr>
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>JS Fundamentals</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>11 February 2019</h6>
+                <p>In the course "JS Fundamentals" you will learn the basic syntax of JavaScript. Data types, operators,
+                  expressions, conditional constructs, loops, and functions are studied. You will become familiar with
+                  the DOM tree and start working with JavaScript in your browser</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/JavaScript/tree/master/JS%20Fundamentals"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <!-- <div class="w3-third w3-center">
+                      <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
+                      <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+              </div> -->
+
+          </div>
+          <hr>
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>C# MVC frameworks - ASP.NET Core</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>10 January 2019</h6>
+                <p>The ASP.NET Core course will teach you how to build modern web applications with the
+                  Model-View-Controller architecture using HTML5, databases, Entity Framework Core and other
+                  technologies. The ASP.NET Core Technology Platform, its components and architecture, the creation of
+                  MVC web applications, the definition of models, views and partial views with Razor view engine,
+                  controller definition, database operation, integration with Entity Framework Core, LINQ, and SQL
+                  Server. The course also includes more complex themes such as user experience, roles and sessions, AJAX
+                  usage, caching, web application security, web sockets, and libraries from MVC controls. Several
+                  practical laboratory exercises (labs) and workshops are being built to build comprehensive,
+                  full-featured ASP.NET Core web applications.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20Web/C%23%20ASP.NET%20Core"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <!-- <div class="w3-third w3-center">
+                    <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
+                    <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div> -->
+
+          </div>
+          <hr>
+
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>C# Web Development Basics</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>06 November 2018</h6>
+                <p>In the basic course of web programming, we will introduce you to basic web development principles
+                  such as HTTP protocol, sessions and ways of preserving the status, caching of data, various data
+                  transfer protocols, security. We will write our own MVC framework based on C # and MS SQL Server,
+                  splitting models, views and controllers, with front-controller and router, supporting all the basic
+                  functionalities needed for a modern web application: data visualization, tables, CRUD data operations,
+                  forms, paging, validation, notifications, users, sessions, login / logout, and more. In practice, you
+                  will learn to create your own C # and SQL Server web applications and understand how web applications
+                  work as a structure and how MVC (model-view-controller) technology works in modern web applications.
+                  This course sets out the basics of important principles set in the next courses and used in the
+                  technologies to be studied.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20Web/C%23%20Web%20Development%20Basics"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <!-- <div class="w3-third w3-center">
+                    <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
+                    <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div> -->
+
+          </div>
+          <hr>
+
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>Django Web Development</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>05 November 2018</h6>
+                <p>The Django Web Development course will introduce you to one of the most used frameworks for building
+                  Python web applications. The aim of the course is to give you the basic knowledge and skills needed to
+                  build the back-end logic of web applications.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/PythonProjects/tree/master/PythonDjango"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\PD.jpeg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\PD.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+
+          </div>
+          <hr>
+
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>Database Advanced - Entity Framework</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>15 August 2018</h6>
+                <p>Working with a modern ORM technology: Entity Framework (EF), which is a ORM standard in C # and .NET
+                  applications. EF allows mapping between a relational database and object-oriented model using the
+                  "database first" and "code first" approaches and provides a powerful object-oriented API for querying
+                  the database and performing CRUD operations. Demonstrate established practices in building a database
+                  layer on sophisticated systems using the "Repository" and "Unit of Work" templates.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/SQL/tree/master/DBAdvancedEntityFramework"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\DBA.jpeg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\DBA.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+
+          </div>
+          <hr>
+
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>Database Basics - MS SQL</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>25 June 2018</h6>
+                <p>Databases are the standard way to use dynamic information in modern applications, making them an
+                  integral part of almost every application. Intensive course basics of databases will introduce you to
+                  one of the most widely used database management systems (DBMS) used in the development of modern
+                  information systems - Microsoft SQL Server. The course focuses on relational modeling, data modeling
+                  with ER diagrams (tables and relational links) and SQL language handling (data mining, selection,
+                  projection, joining, aggregation, grouping, modification, deletion and insertion). Fundamental
+                  knowledge about ACID transactions and transaction processing and practical tips for adjusting
+                  productivity are provided.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/SQL/tree/master/DBBasicsMSSQL" target="_blank">repository</a>
+                </h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\DBB.jpeg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\DBB.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+
+          </div>
+          <hr>
+
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>C # OOP Advanced</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>24 April 2018</h6>
+                <p>In the Object Oriented Programming (OOP) course you will learn about the principles and best
+                  practices for building quality software. You will become familiar with the concepts of writing quality
+                  code in OOP in C#. This includes using abstractions, refactoring, and writing unit tests, reflection,
+                  working with generic data types, using events and techniques, and tools to improve the quality of the
+                  code.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20OOP%20Advanced"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\COOPA.jpg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\COOPA.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+
+          </div>
+          <hr>
+
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>C # OOP Basics</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>20 March 2018</h6>
+                <p>The Object-Oriented Programming course will teach you the principles of Object Oriented Programming
+                  (OOP), how to work with classes and objects, how to use object-oriented modeling, and build class
+                  hierarchies. The basic principles of the OOP will be studied as abstraction (interfaces, abstract
+                  classes), encapsulation, inheritance and polymorphism. We will pay attention to paradigms such as
+                  event-driven programming, functional programming (lambda functions, closures and LINQ), exception
+                  handling. We'll look at cloning, comparing, and crawling objects. We will briefly go into the most
+                  commonly used design patterns.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20OOP%20Basics"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\COOPB.jpg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\COOPB.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+
+          </div>
+          <hr>
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>C # Advanced</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>12 February 2018</h6>
+                <p>The C # Advanced course examines the .NET platform, as well as working with the C # language above
+                  the startup. This includes coding skills, solving problem solving skills, familiarizing with standard
+                  tools for working (.NET Framework), word processing tools, linear and tree collections, and working
+                  with files and directories. Particular attention is paid to the functional programming paradigm as
+                  well as to the basic tool bundling it - LINQ to process data streams.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/CShap-Projects/tree/master/C%23%20Advanced"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\CSharpAdv.jpeg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\CA.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+
+          </div>
+          <hr>
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>Software Technologies</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>12 January 2018</h6>
+                <p>The "Software Technologies" course provides initial knowledge of the most used software technologies
+                  in practice and allows students to orientate which technologies they like to study them more
+                  thoroughly. Basic concepts from front-end and back-end development are studied. The course consists of
+                  four parts: HTML5 development (HTML + CSS + JavaScript + AJAX + REST), PHP web development (PHP +
+                  MySQL), C # Web development (ASP.NET MVC + Entity Framework + SQL Server) Java + Spring MVC +
+                  Hibernate + MySQL). The training methodology is extremely practical. The studied material is presented
+                  with a little theory, with numerous examples and a great number of practical tasks with increasing
+                  difficulty and upgrading one after the other, with detailed instructions. Practical work in a class
+                  under the supervision of lecturers and assistants (or home for online students) is over 70%. The
+                  course only introduces the technologies studied and gives very basic skills without going into depth.
+                </p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/SoftUni-SoftwateTechnologies" target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\Software Technologies - Octoboer 2017.jpg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\ST.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+          </div>
+          <hr>
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><b>Programming Fundamentals</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>11 November 2017</h6>
+                <p>The “Programming Fundamentals” course extends the previously gained basic coding skills from the
+                  “Programming Basics” course at the Software University and adds additional knowledge and practical
+                  programming skills. The course covers source control systems, Git and GitHub for team collaboration,
+                  understanding the basic data types in programming, extracting pieces of code into methods with
+                  parameters and return value, using the debugger to trace the program execution and find bugs,
+                  processing sequences of elements using arrays and lists, using collections, working with matrices for
+                  processing tabular data, working with dictionaries to map keys to values, using strings for text
+                  processing, and the basics of working with classes and objects, using API classes and defining simple
+                  classes.</p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/CShap-Projects/tree/master/ProgrammingFundamentals"
+                    target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\Programing Fundamentals - September 2017.jpg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\PF.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+
+          </div>
+          <hr>
+          <div class="w3-container">
+            <div class="w3-twothird">
+
+              <div class="w3-display-container">
+                <h5 class="w3-opacity"><i class="fab fa-python"></i> <b>Python Basics</b></h5>
+
+                <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>18 July 2017</h6>
+                <p>Course is about basic coding skills, working with IDE, using of variables, condition statements,
+                  loops and other simple things. </p><br>
+                <h6 class="w3-text-gray"><i class="fab fa-github w3-margin-right"></i><a
+                    href="https://github.com/eognianov/PythonProjects" target="_blank">repository</a></h6>
+              </div>
+
+            </div>
+            <div class="w3-third w3-center">
+              <img src="certificates\Python Basics - May 2017.jpeg" style="width: 70%; padding: 10px;">
+              <p><a href="certificates\PB.pdf" target="_blank"><i class="fas fa-search-plus"></i></a></p>
+            </div>
+          </div>
+          <hr>
+        </div>
+
+        <div class="w3-container w3-card w3-white">
+          <h2 class="w3-text-grey w3-padding-16"><i
+              class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-gray"></i>Education</h2>
+          <div class="w3-container">
             <h5 class="w3-opacity"><b>Software University - Sofia, Bulgaria</b></h5>
             <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2017 - 2019</h6>
             <p>C# Web Developer</p>
             <hr>
           </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Technical University - Sofia, Bulgaria</b></h5>
-          <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 - 2013</h6>
-          <p>Bachelor`s degree, Electronics</p>
-          <hr>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Technical University - Sofia, Bulgaria</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 - 2013</h6>
+            <p>Bachelor`s degree, Electronics</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>High School of Mathematics and Science "Prof. Emanuil Ivanov" - Kyustendil,
+                Bulgaria</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2003 - 2008</h6>
+            <p>Informatics</p>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>"St. st. Kiril and Metodiy" - Kyustendil, Bulgaria</b></h5>
+            <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1996 - 2003</h6>
+            <hr>
+          </div>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>High School of Mathematics and Science "Prof. Emanuil Ivanov" - Kyustendil, Bulgaria</b></h5>
-          <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2003 - 2008</h6>
-          <p>Informatics</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>"St. st. Kiril and Metodiy" - Kyustendil, Bulgaria</b></h5>
-          <h6 class="w3-text-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>1996 - 2003</h6>
-          <hr>
-        </div>
+
+        <!-- End Right Column -->
       </div>
 
-    <!-- End Right Column -->
+      <!-- End Grid -->
     </div>
-    
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
 
-<footer class="w3-container w3-gray w3-text-white  w3-center w3-margin-top">
-  <p >Find me on social media.</p>
-  <a href="https://www.facebook.com/eognianov"><i class="fab fa-facebook-square  w3-hover-opacity"></i></a>
-  <a href="https://plus.google.com/u/0/118418211910129854721" target="_blank"><i class="fab fa-google-plus w3-hover-opacity"></i></a>
-  <a href="https://www.instagram.com/eognianov/" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
-  <a href="https://github.com/eognianov" target="_blank"><i class="fab fa-github-square w3-hover-opacity"></i></a>
-  <a href="https://www.linkedin.com/in/emilian-ognianov-6ab178152/" target="_blank"><i class="fab fa-linkedin w3-hover-opacity"></i></i></a>
-  <p >Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-</footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="/lib/jquery.fancybox.min.js"></script>
+    <!-- End Page Container -->
+  </div>
+
+  <footer class="w3-container w3-gray w3-text-white  w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <a href="https://www.facebook.com/eognianov"><i class="fab fa-facebook-square  w3-hover-opacity"></i></a>
+    <a href="https://plus.google.com/u/0/118418211910129854721" target="_blank"><i
+        class="fab fa-google-plus w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/eognianov/" target="_blank"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://github.com/eognianov" target="_blank"><i class="fab fa-github-square w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/in/emilian-ognianov-6ab178152/" target="_blank"><i
+        class="fab fa-linkedin w3-hover-opacity"></i></i></a>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="/lib/jquery.fancybox.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.awards').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+      });
+    });
+  </script>
+
 </body>
+
 </html>
